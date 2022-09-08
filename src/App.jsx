@@ -11,7 +11,7 @@ import {
 const App = () => {
   return (
     <div>
-      <Header />
+      <Header title='Expense Tracker' />
       <div className='container'>
         <Balance />
         <IncomeExpense />
