@@ -1,5 +1,7 @@
 Expense Tracker - ReactJS
 
+image.png
+
 - made from vite
 - individual components
 - useContext for global state
