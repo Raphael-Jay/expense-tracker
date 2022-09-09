@@ -2,7 +2,7 @@ const Transaction = ({ transaction }) => {
   const sign = transaction.amount < 0 ? '-' : '+'
   return (
     <>
-      <li key={transaction.id} className='minus'>
+      <li className={transaction.amount < 0 ? 'minus' : 'plus'}>
         {transaction.text}{' '}
         <span>
           {sign}
