@@ -1,6 +1,6 @@
 Expense Tracker - ReactJS
 
-![](../../Capture.PNG)
+![](screeenshot.png)
 
 - made from vite
 - individual components
